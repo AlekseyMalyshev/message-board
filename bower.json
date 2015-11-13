@@ -1,6 +1,6 @@
 {
   "name": "message-board",
-  "description": "Crappy Message Board",
+  "description": "Super Message Board",
   "main": "server.js",
   "authors": [
     "Aleksey Malyshev"

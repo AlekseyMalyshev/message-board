@@ -1,4 +1,4 @@
-# Crappy Message Board
+# Super Message Board
 
 - supports in-place editing
 

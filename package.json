@@ -1,7 +1,7 @@
 {
   "name": "message-board",
   "version": "1.0.0",
-  "description": "Crappy Message Board",
+  "description": "Super Message Board",
   "repository": {
     "type": "git",
     "url": "git@github.com:AlekseyMalyshev/message-board.git"
