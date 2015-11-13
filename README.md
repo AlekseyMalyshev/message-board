@@ -27,4 +27,4 @@ then `node server.js`
 
 ## Link to Heroku
 
-http://heroku.com
+https://infinite-harbor-4519.herokuapp.com
