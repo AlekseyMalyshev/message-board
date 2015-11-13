@@ -13,6 +13,7 @@ let index = require('./routes/index');
 let board = require('./routes/board');
 
 let database = process.env.MONGOLAB_URI || 'mongodb://localhost/messageBoard';
+console.log('Connecting to mongodb: ', database);
 mongoose.connect(database);
 
 let app = express();
