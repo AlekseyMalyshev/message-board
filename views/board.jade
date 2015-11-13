@@ -1,0 +1,20 @@
+.col-sm-12.messages
+  .message
+    div &nbsp;
+    i.fa.fa-plus-square-o
+  each message in messages
+    .message(id=message._id)
+      div
+        div.time= moment(message.updated).format('M/D \'YY h:mma')
+        div.author= message.author.name
+        div.text= message.text
+      i.fa.fa-pencil-square-o
+      i.fa.fa-trash-o
+    each reply in message.replies
+      .message(id=reply._id)
+        div
+          div.time= moment(message.updated).format('M/D \'YY h:mma')
+          div.author= reply.author.name
+          div.text= reply.text
+          i.fa.fa-pencil-square-o
+          i.fa.fa-trash-o
